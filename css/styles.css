@@ -8,6 +8,7 @@
     --section-grey-color: rgba(245, 244, 250, 1);
     --border-portfolio-color: #EEEEEE;
     --hero-alt-background-color: #C4C4C4;
+    --icon-grey-color: rgba(175, 177, 184, 1);
 }
 h1,h2,h3,h4,p {
     margin-top: 0;
@@ -448,8 +449,79 @@ column-gap: 30px;
     text-decoration: none;
     display: block;
     margin-bottom: 20px;
+}
+/* ======== Client section ========= */
+.our-clients {
+            padding-top: 94px;
+            padding-bottom: 94px;
+
+        }
+.clients-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        color: var(--title-text-color);
+        margin-bottom: 50px;
+}
+.client-links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;    
+}
+.client-icon {
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--icon-grey-color);
+width: 170px;
+height: 92px;
+border: 1px solid var(--icon-grey-color);
+    border-radius: 4px;
+    }
+        .client-icon:hover,
+        .client-icon:focus {
+            fill: var(--accent-color);
+        }
+        .client-icon:hover,
+        .client-icon:focus {
+            border-color: var(--accent-color);
+        }
+
+
+/* ======= social links prop======= */
+.social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--alt-color);
+    margin-top: 16px;
     
 }
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+fill: var(--alt-color);
+}
+
+.social-list-icon {
+    height: 20px;
+    width: 20px;
+    fill: var(--icon-grey-color);
+}   
+    
+
 
 /* ========portfolio prop========== */
 .portfolio-hero{
