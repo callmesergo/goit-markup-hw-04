@@ -113,22 +113,23 @@ text-decoration: none;
     } 
     .mail-icon, .tel-icon {
     margin-right: 10px;
+    
   }
     .tel-top {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-fill: currentColor;
 color: var(--primary-text-color);
+fill: currentColor;
     } 
     .mail-top {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-fill: currentColor;
 color: var(--primary-text-color);
+fill: currentColor;
 }
 .mail-top:hover,
 .mail-top:focus {
@@ -144,7 +145,7 @@ color: var(--primary-text-color);
 .profession, .section-text, .project-info {
     color: var(--primary-text-color);
 }
-/* footer prop */
+/* ========= footer prop =========*/
 .page-footer {
    background: var(--alt-dark-color);
     padding-top: 111px;
@@ -184,6 +185,60 @@ color: rgba(255, 255, 255, 0.6);
 .tel-bottom:focus {
     color: var(--accent-color);
 }
+.join-us {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--alt-color);
+
+}
+.social-icon-footer {
+height: 20px;
+width: 20px;
+
+}
+ 
+    
+.footer-social-links {
+   display: flex;
+
+} 
+.footer-div-one{
+    align-items: baseline;
+}
+.footer-div-two {
+align-items: baseline;
+    margin-left: 70px;
+}
+
+ .social-link-footer {
+    display: flex;
+    align-items: center;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    fill: var(--alt-color);
+
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: var(--accent-color);
+}
+    
+
+
+
+
+
+
+
 .hero {
   background: var(--hero-alt-background-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background.jpg);
@@ -473,7 +528,7 @@ column-gap: 30px;
 display: flex;
 justify-content: center;
 align-items: center;
-color: var(--icon-grey-color);
+fill: var(--icon-grey-color);
 width: 170px;
 height: 92px;
 border: 1px solid var(--icon-grey-color);
