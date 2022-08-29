@@ -118,7 +118,7 @@ text-decoration: none;
     } 
     .mail-icon, .tel-icon {
     margin-right: 10px;
-    
+
   }
     .tel-top {
 font-weight: 500;
@@ -127,6 +127,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 fill: currentColor;
+display: flex;
+align-items: center;
     } 
     .mail-top {
 font-weight: 500;
@@ -135,6 +137,8 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 fill: currentColor;
+display: flex;
+align-items: center;
 }
 .mail-top:hover,
 .mail-top:focus {
