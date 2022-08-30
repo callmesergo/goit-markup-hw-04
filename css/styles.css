@@ -532,26 +532,33 @@ column-gap: 30px;
 .client-links {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 30px;    
+    column-gap: 30px;
+    justify-content: center;
 }
-.client-icon {
+.client-list-item{
+    width: 170px;
+    height: 92px;
 display: flex;
 justify-content: center;
 align-items: center;
 fill: var(--icon-grey-color);
-width: 170px;
-height: 92px;
 border: 1px solid var(--icon-grey-color);
     border-radius: 4px;
-    }
-        .client-icon:hover,
-        .client-icon:focus {
+
+}
+.client-icon {
+width: 106px;
+height: 60px;
+}
+    .client-list-item:hover,
+    .client-list-item:focus {
             fill: var(--accent-color);
-        }
-        .client-icon:hover,
-        .client-icon:focus {
-            border-color: var(--accent-color);
-        }
+}
+  .client-list-item:hover,
+  .client-list-item:focus {
+    border-color: var(--accent-color);
+}
+       
 
 
 /* ======= social links prop======= */
@@ -559,6 +566,7 @@ border: 1px solid var(--icon-grey-color);
     display: flex;
     justify-content: center;
     column-gap: 10px;
+    margin-top: 16px;
 }
 .social-list-link {
     display: flex;
@@ -568,7 +576,7 @@ border: 1px solid var(--icon-grey-color);
     height: 44px;
     border-radius: 50%;
     background-color: var(--alt-color);
-    margin-top: 16px;
+    fill: var(--icon-grey-color);
     
 }
 .social-list-link:hover,
@@ -583,7 +591,7 @@ fill: var(--alt-color);
 .social-list-icon {
     height: 20px;
     width: 20px;
-    fill: var(--icon-grey-color);
+   
 }   
     
 
